@@ -9,146 +9,145 @@
   <link rel="stylesheet" href="index3.html">
   <link rel="stylesheet" href="style111.css">
   <link href='https://fonts.google.com/specimen/Sansita?selection.family=Sansita' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="bootstrap-grid.css">
+  <link rel="stylesheet" href="bootstrap-reboot.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
     html,
     body {
-    height: 100%;
-
-      }
+      height: 100%;
+      color: #1E90FF;
+    }
 
     #grad1 {
 
-      background-image: linear-gradient(to bottom right,blue, deepskyblue);
-    }
+        background-image: linear-gradient(to bottom right,blue, deepskyblue);
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      .content {
+        flex: 1 0 auto;
+      }
+      .footer {
+        padding: 5px;
+        left: 0; bottom: 0; /
+        color: #fff; /* Цвет текста */
+        width: 100%;
+        border: 1px solid #b3d4fc;
+      }
+      #footer div {
+        padding: 10px; /* Поля вокруг текста */
+        background: #39b54a; /* Цвет фона */
+      }
+      . p
+      {font-family: 'Sansita', sans-serif;
 
-    . headerfixed
-    {
-      width:100%;
-      position:fixed;
-      top:0;
-      z-index:1000;
-    }
+      }
+      . container {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        border: 5px solid #b3d4fc ;
+      }
 
-    . pusto
-    {
-      height:100px;
-    }
-    .wrapper {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-    .content {
-      flex: 1 0 auto;
-    }
-    .footer {
-      position: fixed; /* Фиксированное положение */
-      left: 0; bottom: 0; /* Левый нижний угол */
-      color: #fff; /* Цвет текста */
-      width: 100%; /* Ширина слоя */
-      border: 5px solid #b3d4fc;
-          }
-    #footer div {
-      padding: 10px; /* Поля вокруг текста */
-      background: #39b54a; /* Цвет фона */
-    }
-    . p
-    {
-      color: blue ;
-      size: 10%;
-    }
-    . container {
-      width: 100%;
-      max-width: 960px;
-      margin: 0 auto;
-      border: 5px solid #b3d4fc ;
-    }
-    .col-wrap1 {
-      width:35%;
-      height: 100%;
-    }
+    @media (max-width: 200px)
+      .menu-main li {display: block;}
+      div {
+        padding: 10px;
+      }
 
-    .col-wrap2 {
-      width:180%;
-      margin-right:-100%; /* чтобы IE6 не раздвигал контейнер */
-      position:relative;
-      left: 100%;
-      height: 100%;
-    }
+      @media screen and (min-width: 600px) {
+        div {
+          font-size: 40px;
+        }
+      }
 
-    .col1 {
-      float:left;
-      width:50%;
-      margin-right:-100%;
-      position:relative;
-      left:-50%;
-    }
-    p {
-      font-family: 'Sansita', sans-serif;
-    }
+      @media screen and (max-width: 600px) {
+        div {
+          font-size: 20px;
+        }
+      }
 
-    </style>
+  </style>
 
 </head>
 <body background="fon.png">
 <div>
-<div class="wrapper">
+  <div class="wrapper">
 
-  <header>
-    <img src="кросовок.png"  align="left" width="130" height="75">
-    <div align="center"><img src="logo1.png"  width="450" height="200"></div>
+    <header>
+      <img src="кросовок.png"  align="left" width="130" height="75">
+      <div align="center"><img src="logo1.png"  width="450" height="200"></div>
 
-  <nav  class="top-menu">
-  <ul class="menu-main">
-    <li class="left-item"><a href="index.html">Головна</a></li>
-    <li class="left-item"><a href="index2.html">Каталог</a></li>
-    <li class="left-item"><a href="index3.html">Відгуки</a></li>
-    <li class="right-item"><a href="">Контакти</a></li>
-    <li class="right-item"><a href="">Корзина</a></li>
-    <li class="right-item"><a href="">Аксесуари</a></li>
-  </ul>
-  <a class="navbar-logo" href=""><img src="кросовок.png" width="130" height="75"></a>
-  </nav>
-  </header>
-  <div class="content">
-    <div class="col-wrap1">
-      <div class="col-wrap2">
-        <div class="col1"> <h1><p>Ця  сторінка розроблена з метою привернення вашої уваги до сучаного та стильного спортивного зуття. В ньому вам буде зручно відпочивати під час прогрулянки, подорожей. також ми можемо індивідуально підібрати кросівки для відвідування спортивного залу. Ми чекаємо на Вас!</p></h1></div>
-        <div class="col2">
+      <nav  class="top-menu">
+        <ul class="menu-main">
+          <li class="left-item"><a  href="index.html">Головна</a></li>
+          <li class="left-item"><a href="index2.html">Каталог</a></li>
+          <li class="left-item"><a href="index3.html">Відгуки</a></li>
+          <li class="right-item"><a href="">Контакти</a></li>
+          <li class="right-item"><a href="">Корзина</a></li>
+          <li class="right-item"><a href="">Аксесуари</a></li>
+        </ul>
+        <a class="navbar-logo" href=""><img src="кросовок.png" width="130" height="75"></a>
+      </nav>
+    </header>
+
+
+
+
+    <div class="content">
+
+      <div class="row">
+        <div class="col-sm-4">
+          <p align="center">Ця  сторінка розроблена з метою привернення вашої уваги до сучаного та стильного спортивного взуття. В ньому вам буде зручно відпочивати під час прогрулянки, подорожей. також ми можемо індивідуально підібрати кросівки для відвідування спортивного залу. Ми чекаємо на Вас!</p></h1>
+        </div>
+        <div class="col-sm-8">
           <div class="image">
-                    <div class="container">
-                      <h1><p>Наша галерея</p></h1>
+            <div class="container">
+              <h1><p align="center">Наша галерея</p></h1>
+              <div id="gallery">
+                <figure class="photo">
+                  <a href="завантаження.jpg" data-lightbox="roadtrip" ><img src="завантаження.jpg"  width="100%" /></a>
 
-                    <div id="gallery">
-                      <figure class="photo">
-                      <a href="завантаження.jpg" data-lightbox="roadtrip" data-title="Чоловічі кросівки"><img src="завантаження.jpg" alt="Чоловічі кросівки" width="300" height="220"/></a>
-                      <figcaption><p>Чоловічі кросівки</p></figcaption>
-                    </figure>
-                      <figure class="photo">
-                        <a href="images.jpg" data-lightbox="roadtrip" data-title="Жіночі кросівки"><img src="images.jpg" alt="Жіночі кросіки" width="300" height="220"/></a>
-                        <figcaption><p>Жіночі туфлі</p></figcaption>
-                      </figure>
-                      <figure class="photo">
-                        <a href="images (2).jpg" data-lightbox="roadtrip" data-title="Кросівки для спорту"><img src="images (2).jpg" alt="Кросівки для спорту" width="300" height="220"/></a>
-                        <figcaption><p>Чоловічі кросівки</p></figcaption>
-                      </figure>
-                      <figure class="photo">
-                        <a href="final22.jpg" data-lightbox="roadtrip" data-title="Спортивні кеди"><img src="final22.jpg" alt="Спортивні кеди" width="300" height="220" /></a>
-                        <figcaption><p>Спортивні кросівки</p></figcaption>
-                      </figure>
+                </figure>
+                <figure class="photo">
+                  <a href="images.jpg" data-lightbox="roadtrip" ><img src="images.jpg"  width="100%" /></a>
 
-                  </div>
-                  </div>
+                </figure>
+                <figure class="photo">
+                  <a href="images.jpg" data-lightbox="roadtrip"><img src="images.jpg" width="100%" /></a>
+
+                </figure>
+                <figure class="photo">
+                  <a href="images (2).jpg" data-lightbox="roadtrip" ><img src="images (2).jpg"  width="100%" /></a>
+
+                </figure>
+                <figure class="photo">
+                  <a href="images (2).jpg" data-lightbox="roadtrip" ><img src="images (2).jpg" width="100%" /></a>
+
+                </figure>
+                <figure class="photo">
+                  <a href="final22.jpg" data-lightbox="roadtrip" ><img src="final22.jpg"  width="95%"  height="394px"/></a>
+
+                </figure>
+              </div>
+            </div>
           </div>
-         </div>
-         </div>
+        </div>
+      </div>
     </div>
-</div>
 
-   <div id="grad1" class="footer"> <!--<img src="logo1.png"  width="450" height="200">-->
-     <p>@ Футимська Сніжанна</p>
-      <!--<a href="https://www.facebook.com/" target="_blank"><img src="Facebook_icon-icons.com_66933.png" height="51" width="51"></a>--></div>
   </div>
+
+  <div id="grad1" class="footer">
+    <p>@ Футимська Сніжанна</p>
+   </div>
 </div>
- </body>
+</div>
+</body>
 </html>

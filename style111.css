@@ -8,14 +8,14 @@
 .photo {
   float: left;
   width: 30%;
-  padding: 10px;
+  padding: 2px;
   box-sizing: border-box;
 }
 .photo img {
   display: block;
   max-width: 100%;
   height: auto;
-  border: 5px solid #1E90FF;
+  border: 1px solid #1E90FF;
   box-sizing: border-box;
 }
 .photo a:hover {
@@ -41,14 +41,14 @@
   visibility: visible;
 }
 .photo figcaption {
-  color: #999999;
+  color: #1E90FF;
   text-align: center;
   margin-top: 20px;
 }
 h1 {
   font-size: 25px;
   text-transform: uppercase;
-  color: #1E90FF;
+  color:#1E90FF;
   text-align: center;
   margin: 30px 0;
 }
