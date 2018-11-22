@@ -40,11 +40,8 @@
         width: 100%;
         border: 1px solid #b3d4fc;
       }
-      #footer div {
-        padding: 10px; /* Поля вокруг текста */
-        background: #39b54a; /* Цвет фона */
-      }
-      . p
+
+       p
       {font-family: 'Sansita', sans-serif;
 
       }
@@ -58,20 +55,29 @@
     @media (max-width: 200px)
       .menu-main li {display: block;}
       div {
-        padding: 10px;
+        padding: 20px;
       }
 
       @media screen and (min-width: 600px) {
         div {
-          font-size: 40px;
-        }
-      }
+          font-size: 50px;}
+
+
 
       @media screen and (max-width: 600px) {
         div {
-          font-size: 20px;
+          font-size: 45px;
+          color: #005c;
+        }
+        img {
+          width: 60%;
+          float: left;
         }
       }
+    . row{
+      width: 100%;
+    }
+
 
   </style>
 
@@ -82,7 +88,7 @@
 
     <header>
       <img src="кросовок.png"  align="left" width="130" height="75">
-      <div align="center"><img src="logo1.png"  width="450" height="200"></div>
+      <div align="center"><img src="logo1.png"  width="250" height="100" align="center"></div>
 
       <nav  class="top-menu">
         <ul class="menu-main">
@@ -103,38 +109,27 @@
     <div class="content">
 
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-lg-4">
           <p align="center">Ця  сторінка розроблена з метою привернення вашої уваги до сучаного та стильного спортивного взуття. В ньому вам буде зручно відпочивати під час прогрулянки, подорожей. також ми можемо індивідуально підібрати кросівки для відвідування спортивного залу. Ми чекаємо на Вас!</p></h1>
         </div>
-        <div class="col-sm-8">
+        <div class="col-lg-8">
           <div class="image">
             <div class="container">
               <h1><p align="center">Наша галерея</p></h1>
-              <div id="gallery">
-                <figure class="photo">
-                  <a href="завантаження.jpg" data-lightbox="roadtrip" ><img src="завантаження.jpg"  width="100%" /></a>
+              <div id="gallery" class="embed-responsive">
 
-                </figure>
-                <figure class="photo">
-                  <a href="images.jpg" data-lightbox="roadtrip" ><img src="images.jpg"  width="100%" /></a>
 
-                </figure>
-                <figure class="photo">
-                  <a href="images.jpg" data-lightbox="roadtrip"><img src="images.jpg" width="100%" /></a>
+                  <a href="завантаження.jpg" data-lightbox="roadtrip" ><img  class="img-thumbnail" src="завантаження.jpg"  width="45%" /></a>
 
-                </figure>
-                <figure class="photo">
-                  <a href="images (2).jpg" data-lightbox="roadtrip" ><img src="images (2).jpg"  width="100%" /></a>
 
-                </figure>
-                <figure class="photo">
-                  <a href="images (2).jpg" data-lightbox="roadtrip" ><img src="images (2).jpg" width="100%" /></a>
+                  <a href="images.jpg" data-lightbox="roadtrip" ><img class="img-thumbnail" src="images.jpg"  width="45%" /></a>
 
-                </figure>
-                <figure class="photo">
-                  <a href="final22.jpg" data-lightbox="roadtrip" ><img src="final22.jpg"  width="95%"  height="394px"/></a>
+                  <a href="images.jpg" data-lightbox="roadtrip"><img class="img-thumbnail" src="images.jpg" width="45%" /></a>
 
-                </figure>
+
+                  <a href="images (2).jpg" data-lightbox="roadtrip" ><img class="img-thumbnail" src="images (2).jpg"  width="45%" /></a>
+
+
               </div>
             </div>
           </div>
