@@ -7,8 +7,8 @@
 }
 .photo {
   float: left;
-  width: 30%;
-  padding: 2px;
+  width: 40%;
+  padding: 10px;
   box-sizing: border-box;
 }
 .photo img {
@@ -29,7 +29,7 @@
 
   width: 52px;
   height: 35px;
-  position: absolute;
+  position: relative;
   margin: auto;
   top: 0;
   left: 0;
@@ -53,13 +53,14 @@ h1 {
   margin: 30px 0;
 }
 body {
-  font-family: 'Pattaya', sans-serif;
+  font-family: 'Sansita', sans-serif;
   font-size: 30px;
   font-weight: inherit;
   color: #1E90FF;
 }
 #gallery {
   margin-bottom: 60px;
+  width: auto;
 }
 #gallery:after {
   content: '';
@@ -68,5 +69,12 @@ body {
   clear: both;
 }
 p{
-  font:  italic 80% serif;
+  font:  italic 50% serif;
 }
+ @media (max-width: 630px) and (min-width: 360px)
+    {
+    . photo img{
+      float: left;
+      width: auto;
+    }
+  }

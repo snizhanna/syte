@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,62 +24,94 @@
 
     #grad1 {
 
-        background-image: linear-gradient(to bottom right,blue, deepskyblue);
-      }
-      .wrapper {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-      }
-      .content {
-        flex: 1 0 auto;
-      }
-      .footer {
-        padding: 5px;
-        left: 0; bottom: 0; /
-        color: #fff; /* Цвет текста */
-        width: 100%;
-        border: 1px solid #b3d4fc;
-      }
-
-       p
-      {font-family: 'Sansita', sans-serif;
-
-      }
-      . container {
-        width: 100%;
-        max-width: 960px;
-        margin: 0 auto;
-        border: 5px solid #b3d4fc ;
-      }
-
-    @media (max-width: 200px)
-      .menu-main li {display: block;}
-      div {
-        padding: 20px;
-      }
-
-      @media screen and (min-width: 600px) {
-        div {
-          font-size: 50px;}
-
-
-
-      @media screen and (max-width: 600px) {
-        div {
-          font-size: 45px;
-          color: #005c;
-        }
-        img {
-          width: 60%;
-          float: left;
-        }
-      }
-    . row{
+      background-image: linear-gradient(to bottom right,#005cbf, #b3d4fc);
+    }
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .content {
+      flex: 1 0 auto;
+    }
+    .footer {
+      padding: 5px;
+      left: 0; bottom: 0; /
+    color: #fff; /* Цвет текста */
       width: 100%;
+      border: 1px solid #b3d4fc;
+    }
+
+    p
+    {font-family: 'Sansita', sans-serif;
+
+    }
+    . container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      border: 5px solid #b3d4fc ;
     }
 
 
+      @media screen and (min-width: 300px) {
+        div {
+          font-size: 50px;
+          color: #005c;
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+
+        }
+    }
+
+
+        @media screen and (min-width: 600px)  {
+          div {
+            font-size: 55px;
+            color: #005cbf;
+          }
+          . photo {
+            width: 60%;
+            float: left;
+            margin-bottom: auto;
+          }
+
+        }
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+
+        div.desc {
+          padding: 0;
+          text-align: center;
+        }
+
+
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        . row{
+          width: 100%;
+        }
+
+
+        @media only screen and (max-width: 760px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+
+          }
+        }
+
+        @media only screen and (max-width: 400px) {
+          .responsive {
+            width: 100%;
+          }
+        }
   </style>
 
 </head>
@@ -103,46 +136,91 @@
       </nav>
     </header>
 
+  </div>
+</div>
+<div class="content">
+  <div class="container-fluid">
 
 
+    <div class="row">
+      <div class="col-md-4 col-xs-11"><p align="center">Ця  сторінка розроблена з метою привернення вашої уваги до сучаного та стильного спортивного взуття. В ньому вам буде зручно відпочивати під час прогрулянки, подорожей. також ми можемо індивідуально підібрати кросівки для відвідування спортивного залу. Ми чекаємо на Вас!</p></div>
+      <div class="col-md-8 col-xs-12"><h1><p>Наша галерея</p></h1>
+        <div class="row">
 
-    <div class="content">
+          <div class="col-md-6 col-xs-10" >
+            <div id="gallery" class="responsive" >
 
-      <div class="row">
-        <div class="col-lg-4">
-          <p align="center">Ця  сторінка розроблена з метою привернення вашої уваги до сучаного та стильного спортивного взуття. В ньому вам буде зручно відпочивати під час прогрулянки, подорожей. також ми можемо індивідуально підібрати кросівки для відвідування спортивного залу. Ми чекаємо на Вас!</p></h1>
-        </div>
-        <div class="col-lg-8">
-          <div class="image">
-            <div class="container">
-              <h1><p align="center">Наша галерея</p></h1>
-              <div id="gallery" class="embed-responsive">
+              <a target="_blank" href="завантаження.jpg">
+                <img src="завантаження.jpg" alt="Cinque Terre" height="100%">
+              </a>
+              <div class="desc"><p>Чоловічі кросівки</p></div>
 
+          </div>
+          </div>
+          <div class="col-md-6 col-xs-10" >
+            <div id="gallery" class="responsive" >
 
-                  <a href="завантаження.jpg" data-lightbox="roadtrip" ><img  class="img-thumbnail" src="завантаження.jpg"  width="45%" /></a>
+              <a target="_blank" href="images.jpg">
+                <img src="images.jpg" alt="Cinque Terre" height="100%">
+              </a>
+              <div class="desc"><p>Кросівки для спорту</p></div>
 
-
-                  <a href="images.jpg" data-lightbox="roadtrip" ><img class="img-thumbnail" src="images.jpg"  width="45%" /></a>
-
-                  <a href="images.jpg" data-lightbox="roadtrip"><img class="img-thumbnail" src="images.jpg" width="45%" /></a>
-
-
-                  <a href="images (2).jpg" data-lightbox="roadtrip" ><img class="img-thumbnail" src="images (2).jpg"  width="45%" /></a>
-
-
-              </div>
             </div>
           </div>
-        </div>
+
+          </div>
+        <div class="row">
+
+          <div class="col-md-6 col-xs-10" >
+            <div  id="gallery" class="responsive" >
+
+              <a target="_blank" href="images (2).jpg">
+                <img src="images (2).jpg" alt="Cinque Terre" height="100%">
+              </a>
+              <div class="desc"><p>Чоловічі кросівки</p></div>
+
+            </div>
+
+            </div>
+          <div class="col-md-6 col-xs-10" >
+            <div id="gallery" class="responsive" >
+
+              <a target="_blank" href="images (2).jpg">
+                <img src="images (2).jpg" alt="Cinque Terre" height="100%">
+              </a>
+              <div class="desc"><p>Кросівки для спорту</p></div>
+
+            </div>
+
+            </div>
+
+            </div>
+          </div>
+          </div>
       </div>
     </div>
-
   </div>
 
-  <div id="grad1" class="footer">
-    <p>@ Футимська Сніжанна</p>
-   </div>
+
+
+
+</div>
+
+<div id="grad1" class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-xs-4" > <p style="color: white">@ Футимська Сніжанна</p>
+        <img src="logo1.png"  width="350" height="200" align="center">
+      </div>
+      <div class="col-md-4 col-xs-4" ><p style="color: #b3d4fc">Знайдіть нас</p>
+        <a href="https://www.facebook.com/" target="_blank"><img src="Facebook_icon-icons.com_66933.png" height="51" width="51"></a>
+        <a href="https://www.instagram.com/?hl=uk"><img src="instagram.png" height="51" width="51">
+      </div>
+      <div class="col-md-4 col-xs-4" ><p style="color: white">Наші контакти: +0380951254577<br> email: sportUZsport@gmail.com<br>  </p> <img src="кросовок.png" width="130" height="75">  </div>
+  </div>
+</div>
 </div>
 </div>
 </body>
 </html>
+
